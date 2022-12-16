@@ -1,0 +1,141 @@
+*{
+    background: fixed;
+    z-index: 0;
+}
+
+
+
+body{
+    margin: 0;
+    height: 4400px;
+    background-color: black;
+    z-index: 2;
+}
+
+section{
+    height: 1000px;
+    background-image: url(img/main_img.png) ;
+    background-size:cover;
+    z-index: 1;
+
+}
+.main_button{
+    position: absolute;
+    position: fixed;
+    height: 171px;
+    width: 100px;
+    left: 20px;
+}
+
+.sub_button1{
+    position: absolute;
+    position: fixed;
+    height: 170px;
+    width: 170px;
+    margin-left: 5px;
+    top: 276px;
+}
+.sub_button2{
+    position: absolute;
+    position: fixed;
+    height: 170px;
+    width: 170px;
+    margin-left: 5px;
+    top: 426px;
+}   
+
+.sub_button3{
+    position: absolute;
+    position: fixed;
+    height: 170px;
+    width: 170px;
+    margin-left: 5px;
+    top: 576px;
+}
+
+h1{
+    z-index: 1;
+    color: white;
+    font-size: 100px;
+    position: absolute ;
+    top: 300px;
+    width: 906px;
+    height: 161px;
+    left: 607.5px;
+    animation: slide 3s;
+    z-index: 1;
+    background: none;
+}
+
+h4{
+    z-index: 1;
+    color: white;
+    size: 200%;
+    position: absolute;
+    font-size: 80px;
+    top:1500px;
+    width: 300px;
+    left: 830px;
+    background: none;
+   
+}
+
+
+.source01{
+    z-index: 2;
+    position: absolute;
+    top:2350px;
+    left: 409px;
+    background: none;
+ 
+   
+}
+
+.source02{
+    z-index: 3;
+    position: absolute;
+    top:2500px;
+    left: 460px;
+    background: none;
+    z-index: 4;
+   
+}
+
+.source03{
+    z-index: 3;
+    position: absolute;
+    top:3800px;
+    left: 670px;
+    background: none;
+   
+}
+
+
+.home_button{
+    position: absolute;
+    top: 4400px;
+    left: 912px;
+    z-index: 3;
+    width: 150px;
+    height: 150px;
+}
+
+
+
+
+
+
+
+
+@keyframes slide{
+    from{
+   
+        opacity: 0;
+        
+       
+    }
+    to{
+
+        opacity: 1;
+    }
+}
